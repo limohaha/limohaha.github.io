@@ -1,4 +1,5 @@
 name: Mo's Website
 markdown: kramdown
 
+permalink: /about/
 permalink: /blog/:year/:month/:day/:title
