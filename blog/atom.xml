@@ -6,7 +6,7 @@ layout: feed
 
 	<title>Hank Quinlan's Blog</title>
 	<link href="https://limohaha.github.io/blog/atom.xml" rel="self"/>
-	<link href="hhttps://limohaha.github.io/blog"/>
+	<link href="https://limohaha.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>https://limohaha.github.io/blog</id>
 	<author>
@@ -17,7 +17,7 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://https://limohaha.github.io/{{ post.url }}"/>
+			<link href="https://limohaha.github.io/{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>https://limohaha.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
