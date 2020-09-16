@@ -2,4 +2,5 @@ name: Mo's Website
 markdown: kramdown
 
 permalink: /about/
+permalink: /teach/
 permalink: /blog/:year/:month/:day/:title
