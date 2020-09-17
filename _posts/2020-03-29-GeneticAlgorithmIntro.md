@@ -23,9 +23,9 @@ Genetic Algorithm is a numerical approach to solve a optimization problem. You c
 Selection is the means of choosing two chromosomes as parents to generate offspring. Among these two selected chromosomes, the better fit one will be set as "Dad" and another one will be set as "Mom". There exist several different approaches for the selection probability calculation. The most generally used one is "linear Ranking". Also, "roulette wheel" approach could help to determine how likely the chromosomes is to be seleted with consideration of all chromosomes' fitness.
 2. Crossover <br/>
 Once two chromosomes are slected, corssover operator will be implemented to produce the offsprings. Crossover can be single point, twp points, or many points of interchange of information among the chromosomes. The decision of passing to next generation will be made based on some criterion, such as meeting a minimum fitness or replace the worst fittness chromosomes in the related population. Possible cross-over operators are listed in the followings:
-* Copying the better fit into next generation (Single or Multiple parameters);
-* Taking average value between "dad" and "mom" (Single or Multiple parameters);
-* Interchanging the chromosomes' information (Multiple parameters Only);
+  * Copying the better fit into next generation (Single or Multiple parameters);
+  * Taking average value between "dad" and "mom" (Single or Multiple parameters);
+  * Interchanging the chromosomes' information (Multiple parameters Only);
 3. Mutation  <br/>
 There exist possibility that the chromosome's information not inherit from parents. You can set your own rules for mutation. For example, randomly adding a random or fixed amount values to the exited chrosome or randomly selected from other possible candidates in parameter space;
 4. Inversion (Optional) <br/>
