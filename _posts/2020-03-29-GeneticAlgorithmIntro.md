@@ -13,10 +13,6 @@ tags: [Algorithm]
 ## Introduction
 Genetic Algorithm is a numerical approach to solve a optimization problem. You could maximize or minimize some loss functions to find the best/optimized set of parameters. The logic of this algorithm is inspired by nature and natural selection involving in population genetical heredity activities. 
 
-### Advantages
-### Dsiadvantages
-
-
 ## Algorithms
 ### Population Initialization
 
@@ -47,3 +43,7 @@ Generally, we have the following hyper-parameters to tune:
 - Crossover percentage on population;
 
 Among these parameters mutation rate must be very low, as low as 0.05 or even smaller. Because the higher value could destroy the solution. Mutation percentage and crossover percentage are depends on the problem and their own efficiency that you could find an optimal value for them by different runs. If you could settle an optimal value for these three parameters, the other first two parameters would be settled simply.
+
+## Summary
+### Advantages
+### Dsiadvantages
