@@ -15,6 +15,8 @@ Genetic Algorithm is a numerical approach to solve a optimization problem. You c
 
 
 # Algorithms
+## Initialization
+
 
 ## Genetic Operators
 1. Selection <br/>
