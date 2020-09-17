@@ -4,7 +4,7 @@ date:   2020-04-05
 layout: single
 author_profile: true
 comments: true
-tags: [Algorithm]
+tags: [Optimization Algorithms]
 ---
 
 
