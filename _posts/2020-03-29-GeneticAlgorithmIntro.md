@@ -7,18 +7,16 @@ comments: true
 tags: [Algorithm]
 ---
 
+# Introduction
 Genetic Algorithm is a numerical approach to solve a optimization problem. You could maximize or minimize some loss functions to find the best/optimized set of parameters. The logic of this algorithm is inspired by nature and natural selection involving in population genetical heredity activities. 
 
 ## Advantages
-
 ## Dsiadvantages
 
 
-## Algorithms
+# Algorithms
 
-
-
-### Genetic Operators
+## Genetic Operators
 1. Selection <br/>
 Selection is the means of choosing two chromosomes as parents to generate offspring. Among these two selected chromosomes, the better fit one will be set as "Dad" and another one will be set as "Mom". There exist several different approaches for the selection probability calculation. The most generally used one is "linear Ranking". Also, "roulette wheel" approach could help to determine how likely the chromosomes is to be seleted with consideration of all chromosomes' fitness.
 2. Crossover <br/>
