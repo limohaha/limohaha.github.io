@@ -15,7 +15,7 @@ Genetic Algorithm is a numerical approach to solve a optimization problem. You c
 
 
 # Algorithms
-## Initialization
+## Population Initialization
 
 
 ## Genetic Operators
@@ -31,8 +31,7 @@ There exist possibility that the chromosome's information not inherit from paren
 4. Inversion (Optional) <br/>
 For some of the application example, Inversion could be another oeprator, which is randomly shuffling of genes within a chromosome. Inversion has not been used in most genetic algorithms since the crossover and mutation have already effectively catch the similar information from the population;
 
-
-
+## Termination Criterion
 
 
 ## Hyperparameter Tunning
