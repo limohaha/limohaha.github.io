@@ -29,6 +29,8 @@ Once two chromosomes are slected, corssover operator will be implemented to prod
 There exist possibility that the chromosome's information not inherit from parents. You can set your own rules for mutation. For example, randomly adding a random or fixed amount values to the exited chrosome or randomly selected from other possible candidates in parameter space;
 4. Inversion (Optional) <br/>
 For some of the application example, Inversion could be another oeprator, which is randomly shuffling of genes within a chromosome. Inversion has not been used in most genetic algorithms since the crossover and mutation have already effectively catch the similar information from the population;
+5. Migration <br/>
+
 
 ### Termination Criterion
 
