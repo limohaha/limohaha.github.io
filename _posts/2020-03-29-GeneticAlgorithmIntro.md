@@ -18,7 +18,7 @@ Genetic Algorithm is a numerical approach to solve a optimization problem. You c
 
 
 
-# Genetic Operators
+### Genetic Operators
 1. Selection <br/>
 Selection is the means of choosing two chromosomes as parents to generate offspring. Among these two selected chromosomes, the better fit one will be set as "Dad" and another one will be set as "Mom". There exist several different approaches for the selection probability calculation. The most generally used one is "linear Ranking". Also, "roulette wheel" approach could help to determine how likely the chromosomes is to be seleted with consideration of all chromosomes' fitness.
 2. Crossover <br/>
